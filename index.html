@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Raju's Portfolio</title>
+  <link rel="stylesheet" href="index.css" />
+  <script defer src="index.js"></script>
+ <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+  <script>
+    (function(){
+      emailjs.init("lvXER7ZyYM_vX_R5u"); // Replace with your EmailJS Public Key
+    })();
+  </script>
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+  <header class="header">
+    <nav>
+      <a href="#" class="logo">Portfolio</a>
+      <div class="f1">
+        <a href="#contact">Contact</a>
+        <a href="#project">Projects</a>
+        <a href="#skills">Skills</a>
+        <a href="#about">About</a>
+        <a href="#home" id="f6">Home</a>
+      </div>
+    </nav>
+  </header>
+
+  <section class="home" id="home">
+    <div class="home-content">
+      <h3>Hello, It's Me</h3>
+      <h1>Kanakanagaraju Gurajala</h1>
+      <h3>And I'm a <span id="f3">Web Developer & Python Developer</span></h3>
+      <p>
+        I am a dedicated fresher with a strong foundation in Python and web development.<br>
+        I enjoy building responsive and user-friendly websites and applications.<br>
+        I'm eager to learn, grow, and contribute to real-world projects with my coding skills.
+      </p>
+      <div class="homeicons">
+        <a href="#"><i class='bx bxl-instagram'></i></a>
+        <a href="#"><i class='bx bxl-facebook-circle'></i></a>
+        <a href="#"><i class='bx bxl-linkedin'></i></a>
+        <a href="#"><i class='bx bxl-whatsapp'></i></a>
+        <a href="#"><i class='bx bxl-github'></i></a>
+      </div>
+      <a href="#about" class="btn-box">More About Me</a>
+      <a href="#" download class="f10">Download Resume</a>
+    </div>
+    <div class="homeimg">
+      <img src="raju11.jpg" id="image1" />
+    </div>
+  </section>
+
+  <section class="about" id="about">
+    <div class="ramuuu">
+    <div class="about-image">
+      <img src="raju11.jpg" id="img1" />
+    </div>
+    <div class="f4">
+      <h1>About <span class="f5">ME</span></h1>
+      <h2>Full Stack Developer & Python Developer</h2>
+      <p>Hello! I'm Kanaka Nagaraju Gurajala (Raju) — a passionate Full Stack Web Developer and Python Developer, currently in my final year of B.Tech in Computer Science and Engineering at Sir C. R. Reddy College of Engineering.
+        I specialize in building end-to-end web applications with clean design, efficient code, and strong functionality. 
+        I have hands-on experience in developing data-driven applications, automating tasks, and building backend systems using frameworks like Flask and Django.
+        I'm particularly interested in integrating Python with web technologies to create powerful and scalable systems.
+      </p>
+    </div>
+    </div>
+  </section>
+
+  <section class="skills" id="skills">
+    <div class="f8">My <span>Skills</span></div>
+    <div class="heading1">Technical Skills</div>
+
+    <div class="frontend">Frontend-Skills</div>
+    
+    <ul class="skilllist1">
+      <li class="html">
+        <img src="icons8-html5-100.png" alt="HTML" />
+        <h5>HTML</h5>
+      </li>
+      <li class="html">
+        <img src="icons8-css3-144.png" alt="CSS" />
+        <h5>CSS</h5>
+      </li>
+      <li class="html">
+        <img src="icons8-javascript-100.png" alt="JavaScript" />
+        <h5>JAVASCRIPT</h5>
+      </li>
+      <li class="html">
+        <img src="icons8-react-native-500.png" alt="React" />
+        <h5>REACT.JS</h5>
+      </li>
+    </ul>
+    
+
+    <div class="frontend" style="margin-top: 20px;">Backend-Skills</div>
+    <div class="classname" id="skillForm">
+    <form  >
+      <input type="text" id="skillName" placeholder="Enter skill name" />
+      <input type="file" id="upload" accept="image/*" />
+    </form>
+    </div>
+   <button type="button" id="btn1" onclick="button()">ADD SKILL</button>
+    <ul class="skilllist" id="con1"></ul>
+    
+             
+
+    
+
+    <div class="frontend" style="margin-top: 20px;" id="content">Other-Skills</div>
+    <ul class="skilllist1">
+      <li class="html">
+        <img src="icons8-python-100.png" alt="Python" />
+        <h5>PYTHON</h5>
+      </li>
+      <li class="html">
+        <img src="icons8-bootstrap-500.png" alt="Bootstrap" />
+        <h5>BOOTSTRAP</h5>
+      </li>
+      <li class="html">
+        <img src="icons8-github-500.png" alt="GitHub" />
+        <h5>GITHUB</h5>
+      </li>
+    </ul>
+  </section>
+  <section class="project" id="project">
+    <div class="f8">My <span>Projects</span></div>
+    <div class="project1">
+        <h3>project 1:Simple Interest Calculator</h3>
+        <p id="link1" ><a href="https://rajugurajala.github.io/project1/">(link:-https://rajugurajala.github.io/project1/)</a></p>
+        <div class="projectContainer">
+            <div class="image10">
+        <img src="img2.jpg" alt="" id="calculator">
+        </div>
+        <div class="para">
+        <h2>Description About Project</h2>
+            <p id="point">This project is a user-friendly "Simple Interest Calculator" designed to compute interest and total amount based on user inputs.
+
+It features input fields for the initial amount, interest rate, total months, and total days, providing flexibility for various interest calculation scenarios.
+
+The calculator dynamically updates the months field if the number of days exceeds 30, automatically converting excess days into months for accurate calculations.
+
+Error handling is implemented to alert users if the initial amount or interest rate fields are left empty, ensuring valid inputs for calculations.
+
+The user interface is responsive, adapting its layout and element sizes for optimal viewing across different devices, from small smartphones to larger screens.
+
+Navigation is enhanced with keyboard accessibility, allowing users to efficiently move between input fields using the "Enter" key.
+
+The project provides clear output, displaying both the calculated total interest and the final amount including interest, making the results easily understandable.
+ <h4>Technologies Used: HTML for structure, CSS for styling and responsiveness, and JavaScript for the calculation logic and interactive elements.</p>
+        </h4>
+
+      </div>  
+        </div>
+    </div>
+     <div class="project1" id="k1">
+        <h3>project 2:Books Cart Demo</h3>
+        <p id="link1" ><a href="#">(link:-https://rajugurajala.github.io/project1/)</a></p>
+        <div class="projectContainer">
+            <div class="image10">
+        <img src="Screenshot (15).png" alt="" id="calculator1">
+        </div>
+        <div class="para">
+        <h2>Description About Project</h2>
+            <p id="point">The project includes a complete user authentication system with separate Sign Up and Sign In forms, using JavaScript to toggle visibility and validate inputs.
+
+Users are greeted with a modern landing page that outlines the benefits of reading books, offering an engaging introduction to the platform.
+
+The shopping page showcases multiple books with images, original and discounted prices, and star-based rating features for visual feedback.
+
+A fully functional navigation bar connects the homepage, shopping area, and cart/orders section, enhancing user flow across pages.
+
+The product detail page offers a “Buy” option that opens a popup form requiring personal and address details along with a payment method.
+
+The checkout process includes a simulated OTP verification system to mimic secure purchase behavior and improve realism.
+
+Popup modals are used effectively for showing thank-you messages after successful signup and order confirmation, improving user interaction.
+
+A dynamic sidebar allows users to browse books by categories such as Fiction, Sci-Fi, Romance, and more, making content easier to navigate.
+
+JavaScript event listeners enhance usability by allowing navigation between form fields using the Enter key and providing immediate validation feedback.
+ <h4>The project is built using HTML5, CSS3 (with animations, Flexbox, and Grid), and pure JavaScript, forming a strong front-end technology stack.
+
+</p>
+        </h4>
+
+      </div>  
+        </div>
+    </div>
+    <div class="a5" id="signup">
+            <img src="bx-x.svg" id="r1" onclick="cross()">
+            <h2>Details</h2>
+         
+            <input id="e1"  type="text" name="firstname"  placeholder="Enter your name"  value="">
+            
+              <input id="e3" type="password" name="password"  placeholder="Enter your password"  value="">
+              
+              
+              <div class="a7">
+             <button type="button" onclick="closepop()"  id="a8">submit</button>
+              </div>
+            </section>    
+              
+ <section class="contact-section" id="contact">
+  <h2 class="contact-title">Contact <span>Me</span></h2>
+  <div class="contact-container">
+    <!-- Left Side: Professional Text -->
+    <div class="contact-info">
+      <h3>Let’s Connect!</h3>
+      <p>Enter your details and we’ll get back to you as soon as possible.</p>
+      <p>Whether you have a project in mind or just want to say hi, feel free to reach out!</p>
+      <p><strong>💬 Quick responses. Professional communication. Friendly support.</strong></p>
+    </div>
+
+    <!-- Right Side: Contact Form -->
+    <form class="contact-form" id="contactForm">
+      <input type="text" id="name" placeholder="Your Name" required />
+      <input type="email" id="email" placeholder="Your Email" required />
+      <input type="tel" id="phone" placeholder="Your Phone Number" required />
+      <input type="text" id="linkedin" placeholder="Adress...." required />
+      <textarea id="message" rows="5" placeholder="Your Message" required></textarea>
+      <button type="button" class="submit-btn" onclick="sendEmail()">Send Message</button>
+      <p id="formStatus" class="form-status"></p>
+    </form>
+  </div>
+</section>
+<footer class="footer" >
+  <div class="footer-container">
+    <div class="footer-left">
+      <h2>Kanaka Nagaraju Gurajala</h2>
+      <p>© 2025 All Rights Reserved</p>
+    </div>
+    <div class="footer-middle">
+      <h3>Quick Links</h3>
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#project">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </div>
+    <div class="footer-right">
+      <h3>Connect</h3>
+      <p>Email: <a href="mailto:yourmail@example.com">yourmail@example.com</a></p>
+      <p>Phone: <a href="tel:+91XXXXXXXXXX">+91 XXXXXXXXXX</a></p>
+      <div class="footer-socials">
+        <a href="#"><i class='bx bxl-github'></i></a>
+        <a href="#"><i class='bx bxl-linkedin'></i></a>
+        <a href="#"><i class='bx bxl-instagram'></i></a>
+        <a href="#"><i class='bx bxl-whatsapp'></i></a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+
+</script>
+</body>
+</html>
+
+ 
