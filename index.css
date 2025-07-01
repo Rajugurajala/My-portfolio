@@ -70,10 +70,13 @@ body {
   padding-top: 70px 10% 0;
   animation: slideright 2s ease forwards;
   cursor: pointer;
+  font-size: 16px;
+  font-weight: bold;
+
 }
 
 .home-content h1 {
-  font-size: 35px;
+  font-size: 45px;
   animation: slidetop 2s ease forwards;
 }
 
@@ -211,23 +214,27 @@ body {
   display: flex;
   padding: 30px;
   margin-top: 100px;
-  margin-left: 50px;
+  margin-left: 90px;
   animation: slideright 2s ease forwards;
     background-color: #08c7c1;
   border-radius: 50%;
   box-shadow: 0 0 30px cyan
+ 
 }
 
 #img1 {
   border-radius: 50%;
+ 
 }
 
 .f4 {
   display: grid;
-  grid-template-columns: 750px;
+  grid-template-columns: 850px;
   margin-top: 100px;
   text-align: justify;
   font-weight: bold;
+  
+   
 }
 
 .f4 h1 {
@@ -292,17 +299,20 @@ body {
   display: flex;
   flex-direction: row;
   list-style-type: none;
+ margin-left: 30px;
 }
 
 .html {
   background-color: #0e2431;
   border-radius: 20px;
   box-shadow: 0 4px 15px rgba(0, 255, 255, 0.3);
-  margin: 30px 50px 0 50px;
+  margin: 30px 50px 0 70px;
   padding: 20px;
   text-align: center;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
   width: 200px;
+
+   
 }
 
 .html:hover {
@@ -422,6 +432,7 @@ body {
 .para{
    margin-left: 60px;
    text-align: justify;
+   font-size: 18px;
 }
 .para p{
    margin-right: 60px;
@@ -451,7 +462,7 @@ body {
    
     border-radius: 10px;
      box-shadow: 2px 1px 2px 1px black;
-     margin-top: -1300px;
+     margin-top: -1500px;
      margin-left:35%;
      display: none;
 }
@@ -522,9 +533,10 @@ body {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
-  gap: 40px;
+  gap: 60px;
   max-width: 1100px;
   margin: auto;
+ 
 }
 
 .contact-info {
@@ -538,7 +550,7 @@ body {
 
 .contact-info h3 {
   color: #0ef;
-  font-size: 28px;
+  font-size: 38px;
   margin-bottom: 15px;
 }
 
@@ -548,7 +560,8 @@ body {
   max-width: 500px;
   display: flex;
   flex-direction: column;
-  gap: 15px;
+  gap: 25px;
+  padding: 20px;
 }
 
 .contact-form input,
@@ -606,12 +619,14 @@ body {
   justify-content: space-between;
   max-width: 1200px;
   margin: auto;
+
 }
 
 .footer-left, .footer-middle, .footer-right {
   flex: 1;
   min-width: 250px;
   margin-bottom: 20px;
+  margin-left: 30px;
 }
 
 .footer-left h2 {
